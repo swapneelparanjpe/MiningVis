@@ -1,0 +1,95 @@
+body, .toggleButton {
+    font-size: 50%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.cloneRef {
+    font-size: 150%;
+    text-align: center;
+}
+
+.chartHeader {
+    font-weight: bolder;
+    font-size: 200%;
+}
+
+.payoutSchemeLabel {
+    width: 18px;
+    margin-left: 5px;
+    margin-right: 2px;
+    height: 10px;
+    margin-top: 1px;
+}
+
+
+label, .bitCoinTweetsTotalTweetsHeader, .bitCoinTweetsDisplayHeader {
+    font-weight: bold;
+}
+
+svg {
+    width: 100%;
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+}
+
+#svgTimeSelection {
+    height: 120px;
+    cursor: col-resize;
+}
+
+#svgMiningDistribution {
+    height: 450px;
+}
+
+#svgBitcoinTweets {
+    height: 200px;
+    width: 100%;
+}
+
+#toolTip {
+    padding: 4px 4px;
+    border-radius: 8px;
+    pointer-events: none;
+    opacity: 0.8;
+    position: absolute;
+    text-align: left;
+    color: #fff;
+    border: 0px;
+    font: 12px Helvetica, Arial, sans-serif !important;
+    background: rgba(0, 0, 0, .87);
+}
+
+#toolTip hr {
+    margin: 2px 0;
+}
+
+#toolTip p {
+    padding: 8px;
+    margin: 0;
+}
+
+
+#divSVGMiningPool, #divSVGBitcoinStatistics {
+    height: 400px;
+}
+
+#svgCrossPooling, #divSVGMiningPoolFlows {
+    height: 400px;
+}
+
+.slider-value{
+    margin-right: 20px;
+}
+.form-check-label{
+    font-size:8px;
+    margin-bottom: 5px;
+
+}
+
+#selectAll, #unselectAll{
+    width: 60px;
+}
