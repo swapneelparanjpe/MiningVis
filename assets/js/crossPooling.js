@@ -30,7 +30,7 @@ export function crossPoolingChart() {
     .style('display', 'none');
 
     Promise.all([
-        d3.csv("../assets/datasets/pool_hopping.csv", d3.autoType),
+        d3.csv("assets/datasets/pool_hopping.csv", d3.autoType),
     ]).then((files) => {
         // Get input from different graph
         const startDate = new Date("2011-02-01");
