@@ -79,7 +79,7 @@ export function miningDistributionChart() {
     }
 
     // Load the JSON data
-    d3.json("assets/datasets/pools-timeseries.json").then(function (data) {
+    d3.json("/assets/datasets/pools-timeseries.json").then(function (data) {
         document.getElementById("svgMiningDistribution").innerHTML = '';
         if (document.getElementById("selectMeasure").value === "marketShare") {
             for (const date in data["pools-timeseries"]) {
